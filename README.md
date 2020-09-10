@@ -1,2 +1,2 @@
 # daft
-a text-based idle game maker
+A text-based idle game maker.
