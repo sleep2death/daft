@@ -1,0 +1,48 @@
+# Attributes List
+[[Attributes]]
+ID = 1
+Name = "智力"
+Description = ""
+
+[[Attributes]]
+ID = 2
+Name = "精神"
+Description = ""
+
+[[Attributes]]
+ID = 3
+Name = "体格"
+Description = ""
+
+[[Attributes]]
+ID = 4
+Name = "身手"
+Description = ""
+
+# Tester Heror Numba One!
+[[Players]]
+ID = 1
+Name = "Tester Hero"
+Level = 0
+LevelMax = 0
+
+[[Players.Attributes]]
+ID = 1
+Level = 0
+LevelMax = 10
+
+[[Players.Attributes]]
+ID = 2
+Level = 0
+LevelMax = 10
+
+[[Players.Attributes]]
+ID = 3
+Level = 0
+LevelMax = 10
+
+
+[[Players.Attributes]]
+ID = 4
+Level = 0
+LevelMax = 10
