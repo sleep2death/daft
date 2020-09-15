@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@import "~bulma/bulma";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.logo {
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.menu-list .is-active, .menu-list .is-active a:hover {
+    background-color: $primary;
+}
