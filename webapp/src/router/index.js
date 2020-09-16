@@ -27,6 +27,7 @@ const routes = [
         path: 'actors',
         component: Actors,
         children: [{
+          name: 'actors',
           path: ':id',
           component: Actor
         }]

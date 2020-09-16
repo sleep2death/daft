@@ -11,11 +11,24 @@ export default new Vuex.Store({
       { label: '职业', link: '/database/classes', icon: 'far fa-swords' },
       { label: '技能', link: '/database/skills', icon: 'far fa-book-spells' }
     ],
-    actors: []
+    actors: [],
+    current: 0
+  },
+  getters: {
+    getActorByID: (state) => (id) => {
+      return state.actors.find(actor => actor.id === id)
+    }
   },
   mutations: {
     setActors (state, payload) {
+      // update actors
       state.actors = payload
+      if (state.current === 0) {
+        state.current = state.actors[0].id
+      }
+    },
+    setCurrent (state, payload) {
+      state.current = payload
     }
   },
   actions: {
